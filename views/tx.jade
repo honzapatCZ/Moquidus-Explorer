@@ -71,7 +71,7 @@ block content
                       tr.info(style='text-align:center')
                         td #{settings.locale.new_coins}
                     else
-                      - var ramount = r.amount / 100000000
+                      - var ramount = r.amount / 1000000000000
                       tr
                         td 
                           a.loading(href='/address/#{r.addresses}') 
@@ -94,7 +94,7 @@ block content
               tbody
                 each r in tx.vout
                   if tx.vout.length > 0 
-                    - var ramount = r.amount / 100000000  
+                    - var ramount = r.amount / 1000000000000  
                     tr
                       td 
                         a.loading(href='/address/#{r.addresses}') 

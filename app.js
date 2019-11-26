@@ -56,7 +56,7 @@ app.use('/ext/getmoneysupply', function(req,res){
     res.send(' '+supply);
   });
 });
-
+/*
 app.use('/ext/getaddress/:hash', function(req,res){
   db.get_address(req.param('hash'), function(address){
     if (address) {
@@ -73,7 +73,7 @@ app.use('/ext/getaddress/:hash', function(req,res){
     }
   });
 });
-
+*/
 app.use('/ext/getbalance/:hash', function(req,res){
   db.get_address(req.param('hash'), function(address){
     if (address) {
