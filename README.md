@@ -1,20 +1,26 @@
-Iquidus Explorer - 1.6.1
+Moquidus Explorer - 1.0.0
 ================
 
-An open source block explorer written in node.js.
+An open source MONERO block explorer written in node.js.
+Fork of https://github.com/iquidus/explorer which works with minero
 
-### See it in action
+### Why
 
-*  [Deutsche eMark](http://b.emark.tk/)
-*  [Sphere](http://sphere.iquidus.io)
-*  [Vertcoin](http://explorer.vertcoin.info/)
-*  [Vivo](http://vivo.explorerz.top:3003)
-*  [Florincoin](https://florincoin.info/info)
-*  [Maxcoin Explorer 1](https://explorer.maxcoinproject.net/)
-*  [Maxcoin Explorer 2](https://explorer2.maxcoinproject.net/)
+So you want to create a block explorer monero or any rpc similiar deamon, so you find Iquidius Explorer set it up and everything you navigate there and boom "There was an error, check your console", so you have spent around 5 minutes setting up non working block explorer, you maybe even got api keys for the market and that everything for nothing in the end? "Now I need to find another block explorer", you say to yourself. NOT NEEDED ANYMORE my friend, Moquidus Explorer is fully compatible with your old config.
+
+### Upgrade
+
+* Clone this repo
+* Copy your settings, images, themes from old explorer to Moquidus-Explorer
+* In config change "supply" to "TXOUTSET", (note its also good to turn of the richlist as its not even remotely possible with moneros type of anonymity and turn off api for now as it isnt hooked up properly)
+
+### New install
+
+* Follow the normal installation
+* In config change "supply" to "TXOUTSET", (note its also good to turn of the richlist as its not even remotely possible with moneros type of anonymity and turn off api for now as it isnt hooked up properly)
 
 
-*note: If you would like your instance mentioned here contact me*
+## Normal Iquidus Readme.md from now on
 
 ### Requires
 
