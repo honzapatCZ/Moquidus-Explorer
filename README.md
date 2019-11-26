@@ -19,6 +19,9 @@ So you want to create a block explorer monero or any rpc similiar deamon, so you
 * Follow the normal installation
 * In config change "supply" to "TXOUTSET", (note its also good to turn of the richlist as its not even remotely possible with moneros type of anonymity and turn off api for now as it isnt hooked up properly)
 
+### Help
+
+Wanted, if you know how to write some parts better, make pull request, this is basically hacked together solution made in few days
 
 ## Normal Iquidus Readme.md from now on
 
